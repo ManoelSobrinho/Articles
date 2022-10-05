@@ -26,7 +26,7 @@ Se existe mais de uma transação em andamento, uma não pode interferir no resu
 
 ### Durabilidade (Durability)
 
-Os dados validados devem ser registrados pelo sistema e mesmo que haja falha no sistema, os dados devem estar dispostos no estado correto.
+Os dados validados devem ser registrados pelo sistema e mesmo que haja falha no sistema os dados devem estar dispostos no estado correto.
 
 ## Qual a importância da ACID?
 
