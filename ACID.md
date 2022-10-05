@@ -4,7 +4,7 @@ No português: Atomicidade, Consistência, Isolamento e Durabilidade.
 
 No inglês: Atomicity, Consistency, Isolation and Durability.
 
-!É o conjunto de propriedades de um banco de dados transacional.
+É o conjunto de propriedades de um banco de dados transacional.
 
 ## O que é um banco de dados transacional e uma transação?
 
