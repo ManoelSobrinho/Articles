@@ -1,4 +1,4 @@
-# O que é ACID?
+`#RRGGBB`	# O que é ACID? `#0969DA`
 
 No português: Atomicidade, Consistência, Isolamento e Durabilidade.
 
