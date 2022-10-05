@@ -32,6 +32,6 @@ Os dados validados devem ser registrados pelo sistema e mesmo que haja falha no 
 
 A ACID garante o correto funcionamento de um banco de dados, impedindo que dados sejam corrompidos ou perdidos no processamento das transações. Em outras palavras, para manter a integridade de um banco de dados, é muito importante respeitar essas propriedades.
 
-- [x] #739
+- [ ] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
