@@ -20,7 +20,7 @@ A transação deve ser executada totalmente ou não ser executada, jamais deve e
 
 A transação cria um novo estado válido dos dados ou retorna todos os dados ao seu estado anterior, antes da transação ter sido iniciada.
 
-###Isolamento (Isolation)
+### Isolamento (Isolation)
 
 Se existe mais de uma transação em andamento, uma não pode interferir no resultado da outra.
 
