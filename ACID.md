@@ -24,7 +24,7 @@ A transação cria um novo estado válido dos dados ou retorna todos os dados ao
 
 Se existe mais de uma transação em andamento, uma não pode interferir no resultado da outra.
 
-Durabilidade (Durability)
+### Durabilidade (Durability)
 
 Os dados validados devem ser registrados pelo sistema e mesmo que haja falha no sistema, os dados devem estar dispostos no estado correto.
 
