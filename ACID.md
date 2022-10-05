@@ -1,5 +1,4 @@
-{c:blue}# O que é ACID?{/c}
-Este é um {c:red}texto vermelho.{/c}
+# O que é ACID?
 
 No português: Atomicidade, Consistência, Isolamento e Durabilidade.
 
