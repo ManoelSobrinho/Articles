@@ -35,7 +35,7 @@ Já sabemos o que cada forma normal diz, agora, como elas são aplicadas?
 ## Aplicando a 1FN
 
 1 – Identificar a chave primária da entidade.
-2 – Identificar o campo repetido e removê-lo
+2 – Identificar o campo repetido e removê-lo.
 3 – Criar uma entidade com a chave primária da entidade anterior e o campo repetido.
 
 ## Aplicando a 2FN
@@ -58,3 +58,41 @@ Dada a tabela Cliente:
 | 2             | Paulo         | 98855-5454            | Rua Oliveira, 98 - Vila Formoza |
 | 3             | José          | 98770-8080,98770-7656 | Rua Batista, 100 - Vila Verão   |
 | 4             | Maria         | 98888-9999            | Av. Pereira, ap. 40 - Vila Nova |
+
+## Aplicando a 1FN
+
+### Qual será a chave primária da entidade?
+
+Nesse caso, o recomendado é usar o campo Id_Cliente.
+
+OBS: É muito comum usar a coluna nomeada de ID + Complemento para utilizá-la como chave primária. Esse valor deve ser único para cada registro.
+
+### Algum registro tem mais de um valor para o mesmo campo?
+
+Sim, na coluna Telefone existem registros com mais de um telefone.
+
+### O campo que se repete deve virar uma entidade
+
+Sendo assim criamos uma tabela para armazenar as informações dos telefones e eliminamos essa informação da tabela Cliente.
+
+Agora teremos duas tabelas.
+
+Cliente:
+
+| Id_Cliente    | Nome          | Endereço                        |
+| ------------- | ------------- | ------------------------------- |
+| 1             | Pedro         | Rua das Rosas, 130 - Vila Verde |
+| 2             | Paulo         | Rua Oliveira, 98 - Vila Formoza |
+| 3             | José          | Rua Batista, 100 - Vila Verão   |
+| 4             | Maria         | Av. Pereira, ap. 40 - Vila Nova |
+
+Telefone:
+
+| Id_Cliente    | Telefone      | 
+| ------------- | ------------- | 
+| 1             | 98877-5566    | 
+| 1             | 98989-9090    | 
+| 2             | 98855-5454    | 
+| 3             | 98770-8080    | 
+| 3             | 98770-7656    | 
+| 4             | 98888-9999    | 
