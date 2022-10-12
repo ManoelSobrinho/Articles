@@ -52,12 +52,12 @@ Já sabemos o que cada forma normal diz, agora, como elas são aplicadas?
 
 Dada a tabela Cliente:
 
-| Id_Cliente    | Nome          | Telefone              | Endereço                        |
-| ------------- | ------------- | --------------------- | ------------------------------- |
-| 1             | Pedro         | 98877-5566,98989-9090 | Rua das Rosas, 130 - Vila Verde |
-| 2             | Paulo         | 98855-5454            | Rua Oliveira, 98 - Vila Formoza |
-| 3             | José          | 98770-8080,98770-7656 | Rua Batista, 100 - Vila Verão   |
-| 4             | Maria         | 98888-9999            | Av. Pereira, ap. 40 - Vila Nova |
+| Id_Cliente    | Nome          | Telefone              | Endereço                        | DDD           |
+| ------------- | ------------- | --------------------- | ------------------------------- | ------------- |
+| 1             | Pedro         | 98877-5566,98989-9090 | Rua das Rosas, 130 - Vila Verde | 80            |
+| 2             | Paulo         | 98855-5454            | Rua Oliveira, 98 - Vila Formoza | 70            |
+| 3             | José          | 98770-8080,98770-7656 | Rua Batista, 100 - Vila Verão   | 75            |
+| 4             | Maria         | 98888-9999            | Av. Pereira, ap. 40 - Vila Nova | 60            |
 
 ## Aplicando a 1FN
 
@@ -79,12 +79,12 @@ Agora teremos duas tabelas.
 
 Cliente:
 
-| Id_Cliente    | Nome          | Endereço                        |
-| ------------- | ------------- | ------------------------------- |
-| 1             | Pedro         | Rua das Rosas, 130 - Vila Verde |
-| 2             | Paulo         | Rua Oliveira, 98 - Vila Formoza |
-| 3             | José          | Rua Batista, 100 - Vila Verão   |
-| 4             | Maria         | Av. Pereira, ap. 40 - Vila Nova |
+| Id_Cliente    | Nome          | Endereço                        | DDD           |
+| ------------- | ------------- | ------------------------------- | ------------- |
+| 1             | Pedro         | Rua das Rosas, 130 - Vila Verde | 80            |
+| 2             | Paulo         | Rua Oliveira, 98 - Vila Formoza | 70            |
+| 3             | José          | Rua Batista, 100 - Vila Verão   | 75            |
+| 4             | Maria         | Av. Pereira, ap. 40 - Vila Nova | 60            |
 
 Telefone:
 
