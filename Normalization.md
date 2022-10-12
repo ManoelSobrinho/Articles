@@ -49,3 +49,8 @@ Já sabemos o que cada forma normal diz, agora, como elas são aplicadas?
 2 – Removê-los.
 
 # Exemplo prático
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
