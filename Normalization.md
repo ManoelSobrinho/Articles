@@ -96,3 +96,35 @@ Telefone:
 | 3             | 98770-8080    | 
 | 3             | 98770-7656    | 
 | 4             | 98888-9999    | 
+
+## Aplicando a 2FN
+
+### Algum atributo não depende do campo chave?
+
+Sim, a coluna DDD não depende do Id_Cliente, ela está relacionada com o telefone.
+
+### É necessário criar outra identidade para colocar a coluna DDD?
+
+Não, como ele está relacionado ao telefone, podemos adicionar o campo DDD na tabela telefone.
+
+Assim teremos duas tabelas.
+
+Cliente:
+
+| Id_Cliente    | Nome          | Endereço                        |
+| ------------- | ------------- | ------------------------------- |
+| 1             | Pedro         | Rua das Rosas, 130 - Vila Verde |
+| 2             | Paulo         | Rua Oliveira, 98 - Vila Formoza |
+| 3             | José          | Rua Batista, 100 - Vila Verão   |
+| 4             | Maria         | Av. Pereira, ap. 40 - Vila Nova |
+
+Telefone:
+
+| Id_Cliente    | Telefone      | DDD           |
+| ------------- | ------------- | ------------- |
+| 1             | 98877-5566    | 80            |
+| 1             | 98989-9090    | 80            |
+| 2             | 98855-5454    | 70            |
+| 3             | 98770-8080    | 75            |
+| 3             | 98770-7656    | 75            |
+| 4             | 98888-9999    | 60            | 
