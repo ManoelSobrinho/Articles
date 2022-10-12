@@ -52,9 +52,9 @@ Já sabemos o que cada forma normal diz, agora, como elas são aplicadas?
 
 Dada a tabela Cliente:
 
-| Id_Cliente    | Nome          | Telefone              | Endereço      |
-| ------------- | ------------- | --------------------- | ------------- |
-| 1             | Pedro         | 98877-5566,98989-9090 |
-| 2             | Paulo         | 98855-5454            |
-| 3             | José          | 98770-8080,98770-7656 |
-| 4             | Maria         | 98888-9999            |
+| Id_Cliente    | Nome          | Telefone              | Endereço                        |
+| ------------- | ------------- | --------------------- | ------------------------------- |
+| 1             | Pedro         | 98877-5566,98989-9090 | Rua das Rosas, 130 - Vila Verde |
+| 2             | Paulo         | 98855-5454            | Rua Oliveira, 98 - Vila Formoza |
+| 3             | José          | 98770-8080,98770-7656 | Rua Batista, 100 - Vila Verão   |
+| 4             | Maria         | 98888-9999            | Av. Pereira, ap. 40 - Vila Nova |
