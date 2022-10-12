@@ -50,7 +50,9 @@ Já sabemos o que cada forma normal diz, agora, como elas são aplicadas?
 
 # Exemplo prático
 
-| First Header  | Second Header |
-| ------------- | ------------- |
+Dada a tabela Cliente:
+
+| Id_Cliente    | Nome          | Telefone      | Endereço      |
+| ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
